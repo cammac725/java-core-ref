@@ -183,5 +183,41 @@ public class Main {
 
         // Abstract class - cannot be instantiated
         // abstract methods in this class must be used in subclass
+
+        // Interface can't be instantiated, only has method signatures.
+
+        // Overloading - method with same name, different number of parameters
+
+        /**
+         * Javadoc comments
+         *  need to know @params and @return
+         */
+
+        // create array of any primitive or reference type
+//        Athlete1[] arr = new Athlete1[10];
+//
+//        arr[0] = new Athlete1();
+//        arr[1].getName(); // null pointer exception
+//        arr[11] = new Athlete1(); // out of bounds exception
+
+        // arithmetic exception
+//        System.out.println(5/0);
+
+        // equals method
+        String s = "a";
+        String s1 = "c";
+        System.out.println(s.equals(s1));
+        // are they exactly the same string?
+        // no, false
+        // Note: == refers to the same location in memory
+
+        System.out.println(s.compareTo(s1));
+        // returns 0, pos or neg integer
+        // how do we get from s1 to s, this will return -2
+        // "c" is 2 past "a" in the alphabet
+        // based off ASCII table
+
+
+        // should know insertion, selection and merge sort
     }
 }
